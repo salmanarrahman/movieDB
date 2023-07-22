@@ -50,7 +50,7 @@ export default function Book() {
 
   return (
     <div className=" gap-4">
-      <div className="flex mr-10 space-y-5 card  glass border rounded-2xl border-gray-200/80 p-5 self-start   h-300px">
+      <div className="flex mr-10 space-y-5 card   p-5 self-start   h-300px">
       <h1 className="text-lg text-center uppercase">Khoj the search</h1>
 
         <div className='flex justify-between'>
