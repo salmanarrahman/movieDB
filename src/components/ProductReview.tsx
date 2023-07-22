@@ -53,15 +53,18 @@ export default function ProductReview({id}:IProps) {
           <FiSend />
         </Button>
         :
-        <></>
+        <>
+        <p>login to review</p>
+        </>
         }
       </form>
       <div className="mt-10">
+     
         {data?.comments?.map((comment, index) => (
           <div key={index} className="flex gap-3 items-center mb-5">
             <Avatar>
               <AvatarImage src="" />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarFallback>User</AvatarFallback>
             </Avatar>
             <p>{comment}</p>
           </div>
